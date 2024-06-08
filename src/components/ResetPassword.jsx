@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useSearchParams, useNavigate } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 import axios from 'axios';
 import API_URL from '../utils/apiConfig';
 import './css/LoginForm.css';
@@ -13,7 +13,6 @@ const ResetPassword = () => {
   const [confirmarSenha, setconfirmarSenha] = useState('');
   const [msg, setMsg] = useState('');
   const [error, setErro] = useState('');
-  const navigate = useNavigate();
 
   const baseURL = `${API_URL}/Usuario/ResetSenha`;
 

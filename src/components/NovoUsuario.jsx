@@ -151,7 +151,7 @@ const NovoUsuario = () => {
   }
 
   const handleCancelar = () => {
-    navigate('/usuarios');
+    navigate('/WebChamados/usuarios');
   };
 
   const validateEmail = (email) => {

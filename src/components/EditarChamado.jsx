@@ -88,7 +88,7 @@ const EditarChamado = () => {
     };
 
     const handleVoltar = () => {
-        navigate('/chamados');
+        navigate('/WebChamados/chamados');
     };
 
     const handleAssumir = () => {

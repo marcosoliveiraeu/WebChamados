@@ -110,7 +110,7 @@ const EditarUsuario = () => {
   }
 
   const handleCancelar = () => {
-    navigate('/usuarios');
+    navigate('/WebChamados/usuarios');
   };
 
   const handleSalvar = () => {

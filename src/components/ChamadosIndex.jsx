@@ -68,13 +68,13 @@ const ChamadosIndex = () => {
   };
 
   const handleAbrirChamado = () => {
-    navigate('/abrirChamado');
+    navigate('/WebChamados/abrirChamado');
   };
 
   const handleEditarChamado = (chamado) => {
     setchamadoSelecionado(chamado)
 
-    navigate('/EditarChamado', { state: { chamado }});
+    navigate('/WebChamados/EditarChamado', { state: { chamado }});
   };
 
   const columnDefs = [

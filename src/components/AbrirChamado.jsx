@@ -82,7 +82,7 @@ const AbrirChamado = () => {
     };
 
     const handleVoltar = () => {
-        navigate('/Chamados');
+        navigate('/WebChamados/Chamados');
     };
 
     const handleLimpar = () => {

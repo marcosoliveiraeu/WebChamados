@@ -51,8 +51,7 @@ const LoginForm = () => {
         localStorage.setItem('emailHistory', JSON.stringify(updatedEmailHistory));
 
         
-       // <Navigate to="/chamados" /> ;
-        navigate('/chamados');
+        navigate('/WebChamados/chamados');
 
       } else {
         

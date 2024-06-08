@@ -50,7 +50,7 @@ const Usuarios = () => {
         retornaUsuarios();
     }
     else{
-        navigate('/chamados');
+        navigate('/WebChamados/chamados');
     }
     
   }, [] );  
@@ -75,7 +75,7 @@ const Usuarios = () => {
   const handleEditarUsuario = (user) => {
     setSelectedUser(user)
 
-    navigate('/EditarUsuario', { state: { user }});
+    navigate('/WebChamados/EditarUsuario', { state: { user }});
 
   };
 
@@ -107,7 +107,7 @@ const Usuarios = () => {
 
     }
     else{
-      navigate('/login');
+      navigate('/WebChamados/login');
     }
     
   };
@@ -149,7 +149,7 @@ const Usuarios = () => {
 
 
   const handleNovoUsuario = () => {
-    navigate('/novoUsuario');
+    navigate('/WebChamados/novoUsuario');
   };
 
 

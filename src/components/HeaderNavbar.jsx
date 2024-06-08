@@ -51,7 +51,7 @@ const HeaderNavbar = () => {
       console.log("HeaderNavBar.useEffect - usuario não autenticado");  
 
       // vai para pagina login 
-       navigate('/login');
+       navigate('/WebChamados/login');
        
     }
 
@@ -62,21 +62,21 @@ const HeaderNavbar = () => {
   const handleLogout = () => {
     localStorage.removeItem('accessToken');
     localStorage.removeItem('refreshToken');
-    navigate('/login');
+    navigate('/WebChamados/login');
   };
 
 
   const handleUsuarios = () => {
-    navigate('/usuarios');
+    navigate('/WebChamados/usuarios');
   };
 
   const handleChamados = () => {
-    navigate('/chamados');
+    navigate('/WebChamados/chamados');
 
   };
 
   const handleTrocarSenha = () => {
-    navigate('/trocarSenha');
+    navigate('/WebChamados/trocarSenha');
   };
   
 

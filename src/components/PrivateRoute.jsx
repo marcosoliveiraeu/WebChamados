@@ -29,7 +29,7 @@ const PrivateRoute = () => {
         }
   }
 
-  return isAuthenticated ? <Outlet /> : <Navigate to="/login" />;
+  return isAuthenticated ? <Outlet /> : <Navigate to="/WebChamados/login" />;
 };
 
 export default PrivateRoute;

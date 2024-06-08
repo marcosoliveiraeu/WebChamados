@@ -36,9 +36,9 @@ const PrivateAdminRoute = () => {
   }
 
   if (!isAuthenticated){
-    return <Navigate to="/login" />
+    return <Navigate to="/WebChamados/login" />
   }else if(!isAdmin){
-    return <Navigate to="/chamados" />
+    return <Navigate to="/WebChamados/chamados" />
   }else{
     return <Outlet />
   }

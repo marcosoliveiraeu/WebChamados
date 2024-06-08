@@ -35,7 +35,7 @@ const TrocarSenha = () => {
   }, []);
 
   const handleSair = () => {
-    navigate('/chamados');
+    navigate('/WebChamados/chamados');
   };
 
   const handleLimpar = () => {

@@ -64,42 +64,43 @@ const App = () => {
         <Routes>
          
 
-          <Route path="/" element={<Navigate to={"/login"} />} />
           
-          <Route path="/WebChamados" element={<Navigate to={"/login"} />} />
+          <Route path="/WebChamados/" element={<Navigate to={"/WebChamados/login"} />} />
 
-          <Route path="/login" element={tokenExpired ?  <LoginForm /> : <Navigate to={"/chamados"} />} />
+  
+          <Route path="/WebChamados/login" element={tokenExpired ?  <LoginForm /> : <Navigate to={"/WebChamados/chamados"} />} />
+
                     
           <Route element={<PrivateRoute />}>
-            <Route path="/trocarSenha" element={<TrocarSenha />} />          
+            <Route path="/WebChamados/trocarSenha" element={<TrocarSenha />} />          
           </Route>
 
           <Route element={<PrivateRoute />}>
-            <Route path="/chamados" element={<ChamadosIndex />} />          
+            <Route path="/WebChamados/chamados" element={<ChamadosIndex />} />          
           </Route>
 
           <Route element={<PrivateAdminRoute />}>
-            <Route path="/usuarios" element={<Usuarios />} />          
+            <Route path="/WebChamados/usuarios" element={<Usuarios />} />          
           </Route>
           
           <Route element={<PrivateAdminRoute />}>
-            <Route path="/novoUsuario" element={<NovoUsuario />} />          
+            <Route path="/WebChamados/novoUsuario" element={<NovoUsuario />} />          
           </Route>
 
           <Route element={<PrivateAdminRoute />}>
-            <Route path="/editarUsuario" element={<EditarUsuario />} />          
+            <Route path="/WebChamados/editarUsuario" element={<EditarUsuario />} />          
           </Route>
 
           <Route element={<PrivateRoute />}>
-            <Route path="/editarChamado" element={<EditarChamado />} />          
+            <Route path="/WebChamados/editarChamado" element={<EditarChamado />} />          
           </Route>
 
           <Route element={<PrivateRoute />}>
-            <Route path="/abrirChamado" element={<AbrirChamado />} />          
+            <Route path="/WebChamados/abrirChamado" element={<AbrirChamado />} />          
           </Route>
 
           
-          <Route path="/ResetPassword" element={<ResetPassword />} />          
+          <Route path="/WebChamados/ResetPassword" element={<ResetPassword />} />          
           
           
           
