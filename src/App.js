@@ -65,6 +65,8 @@ const App = () => {
          
 
           <Route path="/" element={<Navigate to={"/login"} />} />
+          
+          <Route path="/WebChamados" element={<Navigate to={"/login"} />} />
 
           <Route path="/login" element={tokenExpired ?  <LoginForm /> : <Navigate to={"/chamados"} />} />
                     
