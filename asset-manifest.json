@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/WebChamados/static/css/main.cbb0f5f4.css",
-    "main.js": "/WebChamados/static/js/main.5bda597e.js",
+    "main.js": "/WebChamados/static/js/main.ff990180.js",
     "static/media/icone.png": "/WebChamados/static/media/icone.257ffb3d67c247926e4c.png",
     "index.html": "/WebChamados/index.html",
     "main.cbb0f5f4.css.map": "/WebChamados/static/css/main.cbb0f5f4.css.map",
-    "main.5bda597e.js.map": "/WebChamados/static/js/main.5bda597e.js.map"
+    "main.ff990180.js.map": "/WebChamados/static/js/main.ff990180.js.map"
   },
   "entrypoints": [
     "static/css/main.cbb0f5f4.css",
-    "static/js/main.5bda597e.js"
+    "static/js/main.ff990180.js"
   ]
 }
