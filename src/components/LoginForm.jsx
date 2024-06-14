@@ -113,7 +113,7 @@ const LoginForm = () => {
         <div className='informativo'>
           <h3>Este é um sistema de teste.</h3>
           <h3>Para acessar, use uma das 3 contas abaixo.</h3>  
-          <p>Usuario com perfil Admin , Email: jj@gmail.com senha: @Senha123 </p>
+          <p>Usuario com perfil Admin , Email: js@gmail.com senha: @Senha123 </p>
           <p>Usuario com perfil Dev , Email: mj@gmail.com senha: @Senha123 </p>
           <p>Usuario com perfil Padrão , Email: pp@gmail.com senha: @Senha123 </p>
         </div>
